@@ -3,7 +3,7 @@ _flavor="samsung-a22x"
 pkgname=linux-$_flavor
 pkgver=7.2
 pkgrel=0
-_commit="d8e9901c4064dd491e7643cf001d5b32ac75a227"
+_commit="ab48c995f30a62e771b1bdf3944fd98c526dff21"
 pkgdesc="Samsung Galaxy A22 5G custom kernel (Clang/LLVM)"
 arch="aarch64"
 _carch="arm64"
@@ -83,5 +83,5 @@ package() {
 
 sha512sums="
 355b461544f032d1d1c0ec88e16498fcdddc4dccfaeafa27fe31d40b909068b577e596a19539f9db1f0a02646cb589282b81be3578327a71f42f04d02bab4ce3  a22x-kernel-d8e9901c4064dd491e7643cf001d5b32ac75a227.tar.gz
-35d0173b19934e7b1e3e247c777c92bff0db6755bdec78f8253b9b2542c83c42d5818938b588f49072493e727f494c5057b6ef93b0a123ecb819a391f3cd93a1  config-samsung-a22x.aarch64
+940c1c8aef2f05604350c0d9db3d2c21bad18e6bd43151a2fc22469e1b577630c60647b56bf16d8930d69dfc3b45178b45379a59d5cbf8a2c961132956d7bb3b  config-samsung-a22x.aarch64
 "
